@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Upload your academic notes">
+    <title>Upload Notes - NotesFlow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <div class="logo__image">
+                    
+    <img src="logo.png" alt="NotesFlow Logo" class="logo__img">
+</div>
+                <span class="logo__text">NotesFlow</span>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="features.html" class="nav__link">Features</a></li>
+                    <li class="nav__item"><a href="browse.html" class="nav__link">Browse Notes</a></li>
+                    <li class="nav__item"><a href="upload.html" class="nav__link nav__link--active">Upload</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="page-header">
+            <h1 class="page-header__title">Share Your Notes</h1>
+            <p class="page-header__subtitle">Help fellow students by uploading your quality notes. Every contribution makes a difference.</p>
+        </section>
+
+        <section class="upload-section">
+            <div class="upload__container">
+                <form class="form" action="#" method="post" enctype="multipart/form-data">
+                    <div class="form__group">
+                        <label for="title" class="form__label">Note Title</label>
+                        <input 
+                            type="text" 
+                            id="title" 
+                            name="title" 
+                            class="form__input" 
+                            placeholder="e.g., Data Structures Complete Notes"
+                            required
+                        >
+                    </div>
+
+                    <div class="form__group">
+                        <label for="subject" class="form__label">Subject Category</label>
+                        <select id="subject" name="subject" class="form__select" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="computer-science">Computer Science</option>
+                            <option value="mathematics">Mathematics</option>
+                            <option value="physics">Physics</option>
+                            <option value="chemistry">Chemistry</option>
+                            <option value="biology">Biology</option>
+                            <option value="business">Business</option>
+                            <option value="law">Law</option>
+                            <option value="arts-design">Arts & Design</option>
+                            <option value="engineering">Engineering</option>
+                            <option value="medicine">Medicine</option>
+                            <option value="psychology">Psychology</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="course" class="form__label">Course Code / Level</label>
+                        <input 
+                            type="text" 
+                            id="course" 
+                            name="course" 
+                            class="form__input" 
+                            placeholder="e.g., CS101 or Undergraduate Level 2"
+                            required
+                        >
+                    </div>
+
+                    <div class="form__group">
+                        <label for="description" class="form__label">Description</label>
+                        <textarea 
+                            id="description" 
+                            name="description" 
+                            class="form__textarea" 
+                            placeholder="Brief description of the notes content..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="tags" class="form__label">Tags (Optional)</label>
+                        <input 
+                            type="text" 
+                            id="tags" 
+                            name="tags" 
+                            class="form__input" 
+                            placeholder="e.g., algorithms, sorting, data structures"
+                        >
+                    </div>
+
+                    <div class="form__group">
+                        <label for="file" class="form__label">Upload File (PDF, DOC, or DOCX)</label>
+                        <div class="form__file-wrapper">
+                            <input 
+                                type="file" 
+                                id="file" 
+                                name="file" 
+                                class="form__file-input"
+                                accept=".pdf,.doc,.docx"
+                                required
+                            >
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="email" class="form__label">Your Email</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            class="form__input" 
+                            placeholder="your.email@university.edu"
+                            required
+                        >
+                    </div>
+
+                    <button type="submit" class="form__submit">Upload Notes</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content__container">
+                <h2 class="content__title">Upload Guidelines</h2>
+                <p class="content__text">To maintain quality standards, please ensure your notes are clear, well-organized, and accurate. All submissions undergo peer review before publication.</p>
+                <p class="content__text">Accepted formats include PDF, DOC, and DOCX. Maximum file size is 50MB. By uploading, you agree to share your notes under our community guidelines.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__brand">
+                <div class="footer__logo-wrapper">
+                             <div class="logo__image">
+    <img src="logo.png" alt="NotesFlow Logo" class="logo__img">
+</div>
+                    <span class="footer__logo">NotesFlow</span>
+                </div>
+                <p class="footer__tagline">Empowering students through shared knowledge</p>
+            </div>
+            <div class="footer__links">
+                <div class="footer__column">
+                    <h4 class="footer__heading">Platform</h4>
+                    <ul class="footer__list">
+                        <li><a href="about.html" class="footer__link">About Us</a></li>
+                        <li><a href="features.html" class="footer__link">Features</a></li>
+                        <li><a href="browse.html" class="footer__link">Browse Notes</a></li>
+                        <li><a href="upload.html" class="footer__link">Upload</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h4 class="footer__heading">Support</h4>
+                    <ul class="footer__list">
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                        <li><a href="#" class="footer__link">FAQ</a></li>
+                        <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2026 NotesFlow. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

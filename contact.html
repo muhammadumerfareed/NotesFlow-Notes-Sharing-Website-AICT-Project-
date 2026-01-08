@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with NotesFlow team">
+    <title>Contact Us - NotesFlow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                            <div class="logo__image">
+    <img src="logo.png" alt="NotesFlow Logo" class="logo__img">
+</div>
+                <span class="logo__text">NotesFlow</span>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="features.html" class="nav__link">Features</a></li>
+                    <li class="nav__item"><a href="browse.html" class="nav__link">Browse Notes</a></li>
+                    <li class="nav__item"><a href="upload.html" class="nav__link">Upload</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="page-header">
+            <h1 class="page-header__title">Get In Touch</h1>
+            <p class="page-header__subtitle">Have questions, feedback, or want to contribute? We would love to hear from you.</p>
+        </section>
+
+        <section class="upload-section">
+            <div class="upload__container">
+                <form class="form" action="#" method="post">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Full Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            class="form__input" 
+                            placeholder="Enter your full name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form__group">
+                        <label for="email" class="form__label">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            class="form__input" 
+                            placeholder="your.email@university.edu"
+                            required
+                        >
+                    </div>
+
+                    <div class="form__group">
+                        <label for="category" class="form__label">Inquiry Type</label>
+                        <select id="category" name="category" class="form__select" required>
+                            <option value="" disabled selected>Select a category</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="technical">Technical Support</option>
+                            <option value="upload">Note Upload Question</option>
+                            <option value="feedback">Platform Feedback</option>
+                            <option value="partnership">Partnership Opportunity</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="message" class="form__label">Your Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            class="form__textarea" 
+                            placeholder="Tell us how we can help you..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="form__submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="content__container">
+                <h2 class="section__title">Other Ways To Reach Us</h2>
+                <div class="info__grid">
+                    <article class="info__card">
+                        <h3 class="info__title">Email Support</h3>
+                        <a href="mailto:theumerfareed@gmail.com">theumerfareed@gmail.com</a>
+                        <p class="info__text">Response time: Within 24 hours</p>
+                    </article>
+
+                    <article class="info__card">
+                        <h3 class="info__title">Community Forum</h3>
+                        <p class="info__text">Join our active discussions</p>
+                        <p class="info__text">forum.NotesFlow.edu</p>
+                    </article>
+
+                    <article class="info__card">
+                        <h3 class="info__title">Social Media</h3>
+                        <p class="info__text">Follow us for updates</p>
+                        <p class="info__text">Twitter, LinkedIn, Instagram</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content__container">
+                <h2 class="content__title">Frequently Asked Questions</h2>
+                <p class="content__text">Before reaching out, check our FAQ section for answers to common questions about account registration, note uploads, quality standards, and platform features.</p>
+                <p class="content__text">If your question is not addressed, please use the form above. Our support team is here to help with any inquiries or concerns.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__brand">
+                <div class="footer__logo-wrapper">
+                                <div class="logo__image">
+    <img src="logo.png" alt="NotesFlow Logo" class="logo__img">
+</div>
+                    <span class="footer__logo">NotesFlow</span>
+                </div>
+                <p class="footer__tagline">Empowering students through shared knowledge</p>
+            </div>
+            <div class="footer__links">
+                <div class="footer__column">
+                    <h4 class="footer__heading">Platform</h4>
+                    <ul class="footer__list">
+                        <li><a href="about.html" class="footer__link">About Us</a></li>
+                        <li><a href="features.html" class="footer__link">Features</a></li>
+                        <li><a href="browse.html" class="footer__link">Browse Notes</a></li>
+                        <li><a href="upload.html" class="footer__link">Upload</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h4 class="footer__heading">Support</h4>
+                    <ul class="footer__list">
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                        <li><a href="#" class="footer__link">FAQ</a></li>
+                        <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2026 NotesFlow. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
