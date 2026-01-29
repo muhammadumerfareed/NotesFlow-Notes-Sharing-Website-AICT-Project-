@@ -23,6 +23,8 @@ See the platform in action. Click the badges below to explore:
     <img src="https://img.shields.io/badge/WATCH_FULL_DEMO-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Watch on LinkedIn"/>
   </a>
 </p>
+
+
 ---
 
 ## 📖 Executive Summary
