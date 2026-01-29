@@ -12,17 +12,24 @@
 
 ## 🎥 Project Demo
 
-See the platform in action. Click the badge below to watch the full walkthrough video on LinkedIn:
-[![Live Website](https://img.shields.io/badge/WEBSITE-Live_Demo-success?style=for-the-badge&logo=google-chrome&logoColor=white)](https://muhammadumerfareed.github.io/NotesFlow-Notes-Sharing-Website-AICT-Project-/)
-[![Watch on LinkedIn](https://img.shields.io/badge/WATCH_FULL_DEMO-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/muhammad-umer-fareed-675557377_aict-firstsemesterproject-notesflow-activity-7420184068958384128-dDVG?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF0p8_kB2qk0wf18IejwkPYEZOLWdmhLmVA)
+See the platform in action. Click the badges below to explore:
 
+<p align="center">
+  <a href="https://muhammadumerfareed.github.io/NotesFlow-Notes-Sharing-Website-AICT-Project-/">
+    <img src="https://img.shields.io/badge/WEBSITE-Live_Demo-success?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Website"/>
+  </a>
+  
+  &nbsp; &nbsp; <a href="https://www.linkedin.com/posts/muhammad-umer-fareed-675557377_aict-firstsemesterproject-notesflow-activity-7420184068958384128-dDVG?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF0p8_kB2qk0wf18IejwkPYEZOLWdmhLmVA">
+    <img src="https://img.shields.io/badge/WATCH_FULL_DEMO-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Watch on LinkedIn"/>
+  </a>
+</p>
 ---
 
 ## 📖 Executive Summary
 
 **NotesFlow** is a front-end web prototype designed to democratize access to educational materials. In modern academic environments, quality study resources are often siloed or expensive. NotesFlow solves this by creating a structured, peer-reviewed repository where students can upload lecture notes and access materials from others freely.
 
-This project was built for the **Applied Information & Communication Technologies (AICT)** course, demonstrating mastery of semantic HTML5 structure, modern CSS3 styling, and responsive user interface design without reliance on external frameworks.
+This project was built for the **Applications of Information & Communication Technologies (AICT)** course, demonstrating mastery of semantic HTML5 structure, modern CSS3 styling, and responsive user interface design without reliance on external frameworks.
 
 ---
 
@@ -95,7 +102,7 @@ NotesFlow/
 ├── logo.png         # Project Logo
 └── README.md        # Documentation
 ```
-### Screenshots: 
+## Screenshots: 
 
 <img width="1884" height="901" alt="image" src="https://github.com/user-attachments/assets/a3541ecf-f09a-41ee-98ff-81f8fea19227" />
 <img width="1812" height="863" alt="image" src="https://github.com/user-attachments/assets/b721114f-b3c7-4b6a-8129-14cc165495e1" />
@@ -103,7 +110,7 @@ NotesFlow/
 
 
 ```Continued...```
-### 🏆 Credits
+## 🏆 Credits
 
 **Development Team:**
 * **Muhammad Umer Fareed** 
